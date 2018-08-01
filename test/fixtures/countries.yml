@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  high_income: false
+  upper_middle_income: false
+  middle_income: false
+  lower_middle_income: false
+  low_income: false
+
+two:
+  name: MyString
+  high_income: false
+  upper_middle_income: false
+  middle_income: false
+  lower_middle_income: false
+  low_income: false

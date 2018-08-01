@@ -1,0 +1,233 @@
+country,High-income Countries,Upper-middle-income Countries,Middle-income Countries,Lower-middle-income Countries,Low-income Countries
+Afghanistan,N,N,N,N,Y
+Albania,N,Y,Y,N,N
+Algeria,N,Y,Y,N,N
+American Samoa,N,Y,Y,N,N
+Andorra,Y,N,N,N,N
+Angola,N,N,Y,Y,N
+Anguilla,N/A,N/A,N/A,N/A,N/A
+Antigua and Barbuda,Y,N,N,N,N
+Argentina,N,Y,Y,N,N
+Armenia,N,N,Y,Y,N
+Aruba,Y,N,N,N,N
+Australia,Y,N,N,N,N
+Austria,Y,N,N,N,N
+Azerbaijan,N,Y,Y,N,N
+Bahamas,Y,N,N,N,N
+Bahrain,Y,N,N,N,N
+Bangladesh,N,N,Y,Y,N
+Barbados,Y,N,N,N,N
+Belarus,N,Y,Y,N,N
+Belgium,Y,N,N,N,N
+Belize,N,Y,Y,N,N
+Benin,N,N,N,N,Y
+Bermuda,Y,N,N,N,N
+Bhutan,N,N,Y,Y,N
+Bolivia (Plurinational State of),N,N,Y,Y,N
+Bosnia and Herzegovina,N,Y,Y,N,N
+Botswana,N,Y,Y,N,N
+Brazil,N,Y,Y,N,N
+British Virgin Islands,Y,N,N,N,N
+Brunei Darussalam,Y,N,N,N,N
+Bulgaria,N,Y,Y,N,N
+Burkina Faso,N,N,N,N,Y
+Burundi,N,N,N,N,Y
+Cabo Verde,N,N,Y,Y,N
+Cambodia,N,N,Y,Y,N
+Cameroon,N,N,Y,Y,N
+Canada,Y,N,N,N,N
+Caribbean Netherlands,N/A,N/A,N/A,N/A,N/A
+Cayman Islands,Y,N,N,N,N
+Central African Republic,N,N,N,N,Y
+Chad,N,N,N,N,Y
+Channel Islands,Y,N,N,N,N
+Chile,Y,N,N,N,N
+China,N,Y,Y,N,N
+"China, Hong Kong SAR",Y,N,N,N,N
+"China, Macao SAR",Y,N,N,N,N
+Colombia,N,Y,Y,N,N
+Comoros,N,N,N,N,Y
+Congo,N,N,Y,Y,N
+Cook Islands,N/A,N/A,N/A,N/A,N/A
+Costa Rica,N,Y,Y,N,N
+Croatia,N,Y,Y,N,N
+Cote d'Ivoire,N,N,Y,Y,N
+Cuba,N,Y,Y,N,N
+Curacao,Y,N,N,N,N
+Cyprus,Y,N,N,N,N
+Czechia,Y,N,N,N,N
+Dem. People's Republic of Korea,N,N,N,N,Y
+Democratic Republic of the Congo,N,N,N,N,Y
+Denmark,Y,N,N,N,N
+Djibouti,N,N,Y,Y,N
+Dominica,N,Y,Y,N,N
+Dominican Republic,N,Y,Y,N,N
+Ecuador,N,Y,Y,N,N
+Egypt,N,N,Y,Y,N
+El Salvador,N,N,Y,Y,N
+Equatorial Guinea,N,Y,Y,N,N
+Eritrea,N,N,N,N,Y
+Estonia,Y,N,N,N,N
+Ethiopia,N,N,N,N,Y
+Faeroe Islands,Y,N,N,N,N
+Falkland Islands (Malvinas),N/A,N/A,N/A,N/A,N/A
+Fiji,N,Y,Y,N,N
+Finland,Y,N,N,N,N
+France,Y,N,N,N,N
+French Guiana,N/A,N/A,N/A,N/A,N/A
+French Polynesia,Y,N,N,N,N
+Gabon,N,Y,Y,N,N
+Gambia,N,N,N,N,Y
+Georgia,N,N,Y,Y,N
+Germany,Y,N,N,N,N
+Ghana,N,N,Y,Y,N
+Gibraltar,Y,N,N,N,N
+Greece,Y,N,N,N,N
+Greenland,Y,N,N,N,N
+Grenada,N,Y,Y,N,N
+Guadeloupe,N/A,N/A,N/A,N/A,N/A
+Guam,Y,N,N,N,N
+Guatemala,N,N,Y,Y,N
+Guinea,N,N,N,N,Y
+Guinea-Bissau,N,N,N,N,Y
+Guyana,N,Y,Y,N,N
+Haiti,N,N,N,N,Y
+Holy See,N/A,N/A,N/A,N/A,N/A
+Honduras,N,N,Y,Y,N
+Hungary,Y,N,N,N,N
+Iceland,Y,N,N,N,N
+India,N,N,Y,Y,N
+Indonesia,N,N,Y,Y,N
+Iran (Islamic Republic of),N,Y,Y,N,N
+Iraq,N,Y,Y,N,N
+Ireland,Y,N,N,N,N
+Isle of Man,Y,N,N,N,N
+Israel,Y,N,N,N,N
+Italy,Y,N,N,N,N
+Jamaica,N,Y,Y,N,N
+Japan,Y,N,N,N,N
+Jordan,N,N,Y,Y,N
+Kazakhstan,N,Y,Y,N,N
+Kenya,N,N,Y,Y,N
+Kiribati,N,N,Y,Y,N
+Kuwait,Y,N,N,N,N
+Kyrgyzstan,N,N,Y,Y,N
+Lao People's Democratic Republic,N,N,Y,Y,N
+Latvia,Y,N,N,N,N
+Lebanon,N,Y,Y,N,N
+Lesotho,N,N,Y,Y,N
+Liberia,N,N,N,N,Y
+Libya,N,Y,Y,N,N
+Liechtenstein,Y,N,N,N,N
+Lithuania,Y,N,N,N,N
+Luxembourg,Y,N,N,N,N
+Madagascar,N,N,N,N,Y
+Malawi,N,N,N,N,Y
+Malaysia,N,Y,Y,N,N
+Maldives,N,Y,Y,N,N
+Mali,N,N,N,N,Y
+Malta,Y,N,N,N,N
+Marshall Islands,N,Y,Y,N,N
+Martinique,N/A,N/A,N/A,N/A,N/A
+Mauritania,N,N,Y,Y,N
+Mauritius,N,Y,Y,N,N
+Mayotte,N/A,N/A,N/A,N/A,N/A
+Mexico,N,Y,Y,N,N
+Micronesia (Fed. States of),N,N,Y,Y,N
+Monaco,Y,N,N,N,N
+Mongolia,N,N,Y,Y,N
+Montenegro,N,Y,Y,N,N
+Montserrat,N/A,N/A,N/A,N/A,N/A
+Morocco,N,N,Y,Y,N
+Mozambique,N,N,N,N,Y
+Myanmar,N,N,Y,Y,N
+Namibia,N,Y,Y,N,N
+Nauru,N,Y,Y,N,N
+Nepal,N,N,N,N,Y
+Netherlands,Y,N,N,N,N
+New Caledonia,Y,N,N,N,N
+New Zealand,Y,N,N,N,N
+Nicaragua,N,N,Y,Y,N
+Niger,N,N,N,N,Y
+Nigeria,N,N,Y,Y,N
+Niue,N/A,N/A,N/A,N/A,N/A
+Northern Mariana Islands,Y,N,N,N,N
+Norway,Y,N,N,N,N
+Oman,Y,N,N,N,N
+Pakistan,N,N,Y,Y,N
+Palau,Y,N,N,N,N
+Panama,N,Y,Y,N,N
+Papua New Guinea,N,N,Y,Y,N
+Paraguay,N,Y,Y,N,N
+Peru,N,Y,Y,N,N
+Philippines,N,N,Y,Y,N
+Poland,Y,N,N,N,N
+Portugal,Y,N,N,N,N
+Puerto Rico,Y,N,N,N,N
+Qatar,Y,N,N,N,N
+Republic of Korea,Y,N,N,N,N
+Republic of Moldova,N,N,Y,Y,N
+Romania,N,Y,Y,N,N
+Russian Federation,N,Y,Y,N,N
+Rwanda,N,N,N,N,Y
+Reunion,N/A,N/A,N/A,N/A,N/A
+Saint Helena,N/A,N/A,N/A,N/A,N/A
+Saint Kitts and Nevis,Y,N,N,N,N
+Saint Lucia,N,Y,Y,N,N
+Saint Pierre and Miquelon,N/A,N/A,N/A,N/A,N/A
+Saint Vincent and the Grenadines,N,Y,Y,N,N
+Samoa,N,Y,Y,N,N
+San Marino,Y,N,N,N,N
+Sao Tome and Principe,N,N,Y,Y,N
+Saudi Arabia,Y,N,N,N,N
+Senegal,N,N,N,N,Y
+Serbia,N,Y,Y,N,N
+Seychelles,Y,N,N,N,N
+Sierra Leone,N,N,N,N,Y
+Singapore,Y,N,N,N,N
+Sint Maarten (Dutch part),Y,N,N,N,N
+Slovakia,Y,N,N,N,N
+Slovenia,Y,N,N,N,N
+Solomon Islands,N,N,Y,Y,N
+Somalia,N,N,N,N,Y
+South Africa,N,Y,Y,N,N
+South Sudan,N,N,N,N,Y
+Spain,Y,N,N,N,N
+Sri Lanka,N,N,Y,Y,N
+State of Palestine,N,N,Y,Y,N
+Sudan,N,N,Y,Y,N
+Suriname,N,Y,Y,N,N
+Swaziland,N,N,Y,Y,N
+Sweden,Y,N,N,N,N
+Switzerland,Y,N,N,N,N
+Syrian Arab Republic,N,N,Y,Y,N
+Tajikistan,N,N,Y,Y,N
+TFYR Macedonia,N,Y,Y,N,N
+Thailand,N,Y,Y,N,N
+Timor-Leste,N,N,Y,Y,N
+Togo,N,N,N,N,Y
+Tokelau,N/A,N/A,N/A,N/A,N/A
+Tonga,N,Y,Y,N,N
+Trinidad and Tobago,Y,N,N,N,N
+Tunisia,N,N,Y,Y,N
+Turkey,N,Y,Y,N,N
+Turkmenistan,N,Y,Y,N,N
+Turks and Caicos Islands,Y,N,N,N,N
+Tuvalu,N,Y,Y,N,N
+Uganda,N,N,N,N,Y
+Ukraine,N,N,Y,Y,N
+United Arab Emirates,Y,N,N,N,N
+United Kingdom,Y,N,N,N,N
+United Republic of Tanzania,N,N,N,N,Y
+United States of America,Y,N,N,N,N
+United States Virgin Islands,Y,N,N,N,N
+Uruguay,Y,N,N,N,N
+Uzbekistan,N,N,Y,Y,N
+Vanuatu,N,N,Y,Y,N
+Venezuela (Bolivarian Republic of),N,Y,Y,N,N
+Viet Nam,N,N,Y,Y,N
+Wallis and Futuna Islands,N/A,N/A,N/A,N/A,N/A
+Western Sahara,N/A,N/A,N/A,N/A,N/A
+Yemen,N,N,Y,Y,N
+Zambia,N,N,Y,Y,N
+Zimbabwe,N,N,N,N,Y
