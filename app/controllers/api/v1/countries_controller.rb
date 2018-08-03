@@ -1,5 +1,5 @@
 class Api::V1::CountriesController < ApplicationController
-  before_action :set_country, only: [:show, :update, :destroy]
+  before_action :set_country, only: [:show, :update, :destroy, :extra]
 
   # GET /countries
   def index
@@ -24,6 +24,11 @@ class Api::V1::CountriesController < ApplicationController
     end
   end
 
+  def extra
+    @extra = Country.find_by(name: params[:extra])
+    @info = @country.relationship(@extra)
+    render json: @info, each_serializer: CountryExtraSerializer
+  end
   # PATCH/PUT /countries/1
   def update
     if @country.update(country_params)

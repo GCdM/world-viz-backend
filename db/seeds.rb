@@ -8,7 +8,7 @@ csv_migrations = CSV.parse(csv_text_migrations, :headers => true)
 
 csv_countries.each do |row|
   c = Country.new
-  c.name = row['country']
+  c.name = row['Country']
 
   if row['High-income Countries'] == "Y"
     c.high_income = true
@@ -50,11 +50,18 @@ csv_countries.each do |row|
     c.low_income = nil
   end
 
+  if row['Region'] != "?"
+    c.region = row['Region']
+  else
+    c.region = 'N/A'
+  end
+
   c.save
 
-  puts "#{c.name} saved"
+  # puts "#{c.name} saved"
 end
 
+puts "COUNTRIES FINISHED"
 
 csv_migrations.each do |row|
   year = row['Year']
@@ -76,8 +83,10 @@ csv_migrations.each do |row|
       newFlow.quantity = quantity
       newFlow.year = year
       newFlow.save
-      puts "From: " + origin.name
-      puts "To: " + destination.name
+      # puts "From: " + origin.name
+      # puts "To: " + destination.name
     end
   end
 end
+
+puts "FLOWS FINISHED"

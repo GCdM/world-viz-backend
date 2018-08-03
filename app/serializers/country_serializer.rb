@@ -10,6 +10,35 @@ class CountrySerializer < ActiveModel::Serializer
       middle_income: object.middle_income,
       lower_middle_income: object.lower_middle_income,
       low_income: object.low_income,
+      total_immigration: {
+        "1990": object.positive_flow_by(1990),
+        "1995": object.positive_flow_by(1995),
+        "2000": object.positive_flow_by(2000),
+        "2005": object.positive_flow_by(2005),
+        "2010": object.positive_flow_by(2010),
+        "2015": object.positive_flow_by(2015),
+        "2017": object.positive_flow_by(2017)
+      },
+      total_emigration: {
+        "1990": object.negative_flow_by(1990),
+        "1995": object.negative_flow_by(1995),
+        "2000": object.negative_flow_by(2000),
+        "2005": object.negative_flow_by(2005),
+        "2010": object.negative_flow_by(2010),
+        "2015": object.negative_flow_by(2015),
+        "2017": object.negative_flow_by(2017)
+      },
+      net_migration: {
+        "1990": object.net_flow_by(1990),
+        "1995": object.net_flow_by(1995),
+        "2000": object.net_flow_by(2000),
+        "2005": object.net_flow_by(2005),
+        "2010": object.net_flow_by(2010),
+        "2015": object.net_flow_by(2015),
+        "2017": object.net_flow_by(2017)
+      },
+      emi_by_region: self.emi_region_totals,
+      immi_by_region: self.immi_region_totals,
       emigrations: self.emigration_info,
       immigrations: self.immigration_info
     }
@@ -59,5 +88,25 @@ class CountrySerializer < ActiveModel::Serializer
     end
 
     results
+  end
+
+  def emi_region_totals
+    info = {}
+    object.emigrations.each do |flow|
+      info[flow.year] ||= {}
+      info[flow.year][flow.destination.region] ||= 0
+      info[flow.year][flow.destination.region] += flow.quantity
+    end
+    return info
+  end
+
+  def immi_region_totals
+    info = {}
+    object.immigrations.each do |flow|
+      info[flow.year] ||= {}
+      info[flow.year][flow.origin.region] ||= 0
+      info[flow.year][flow.origin.region] += flow.quantity
+    end
+    return info
   end
 end

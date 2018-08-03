@@ -7,6 +7,7 @@ class CreateCountries < ActiveRecord::Migration[5.2]
       t.boolean :middle_income
       t.boolean :lower_middle_income
       t.boolean :low_income
+      t.string :region
 
       t.timestamps
     end

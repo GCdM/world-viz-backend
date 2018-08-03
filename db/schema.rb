@@ -22,6 +22,7 @@ ActiveRecord::Schema.define(version: 2018_07_31_130910) do
     t.boolean "middle_income"
     t.boolean "lower_middle_income"
     t.boolean "low_income"
+    t.string "region"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
